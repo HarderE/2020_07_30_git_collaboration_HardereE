@@ -99,3 +99,92 @@
   280  git status
   281  nano README.md
   282  history
+  283  nano history.txt
+  284  git status
+  285  git add README.md
+  286  git add history.txt
+  287  git add README.md
+  288  git add README.md
+  289  git status
+  290  git commit -m "main branch + new notes"
+  291  git push origin main
+  292  git log --online --graph --decorate
+  293  git log --oneline --all --graph --decorate
+  294  git fetch --prune
+  295  git log --oneline --all --graph --decorate
+  296  git branch -d master
+  297  git branch -a
+  298  git status
+  299  git checkout -b update_readme_title
+  300  git status
+  301  nano README.md
+  302  git status
+  303  git add README.md
+  304  git commit -m "New title and typo"
+  305  git log --oneline --all --graph --decorate
+  306  git checkout main
+  307  git checkout -b add_section_headers
+  308  git status
+  309  nano README.md
+  310  git status
+  311  git add README.md
+  312  git commit -m "Fix title and added sections headers"
+  313  nano README.md
+  314  git branch -a
+  315  git checkpout update_readme_title
+  316  git checkout update_readme_title
+  317  git status -a
+  318  git status
+  319  git log --oneline --all --graph --decorate
+  320  git stash
+  321  git log --oneline --all --graph --decorate
+  322  git branch -a
+  323  git checkout update_readme_title
+  324  git checkout add_section_headers
+  325  git status
+  326  git log --oneline --all --graph --decorate
+  327  git stash list
+  328  git stash apply
+  329  git log --oneline --all --graph --decorate
+  330  git add README.md
+  331  git commit -m "one more change"
+  332  git stash list
+  333  git stash clear
+  334  git stash list
+  335  git push origin add_section_headers
+  336  git log --oneline --all --graph --decorate
+  337  git checkpout update_readme_title
+  338  git checkout update_readme_title
+  339  git push origin update_readme_title
+  340  git checkout main
+  341  git pull origin main
+  342  cat README.md
+  343  git pull origin main
+  344  git log --oneline --all --graph --decorate
+  345  git fetch --prune
+  346  git branch -d update_readme_title
+  347  git log --oneline --all --graph --decorate
+  348  git fetch --prune
+  349  git fetch --prune
+  350  git log --oneline --all --graph --decorate
+  351  git checkout add_section_headers
+  352  git rebase main
+  353  git rebase --abort
+  354  git rebase main
+  355  nano README.md
+  356  cat README.md
+  357  git status
+  358  git add README.md
+  359  git status
+  360  git rebase --continue
+  361  git log --oneline --all --graph --decorate
+  362  git push origin add_section_headers
+  363  git push -f origin add_section_headers
+  364  git checkout main
+  365  git pull origin main
+  366  git fetch --prune
+  367  git branch -d add_section_headers
+  368  git log --oneline --all --graph --decorate
+  369  git tatus
+  370  git status
+  371  history

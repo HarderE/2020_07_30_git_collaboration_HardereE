@@ -1,5 +1,5 @@
 
-Git Collaboration class notes
+# Git Collaboration class notes
 
 # Cloning
 - `git clone <url>`: todownload repository from web to local computer
@@ -11,7 +11,7 @@ Git Collaboration class notes
 - `git switch <branch_name>`: move to a branch
   - `git checkout <branch_name>`: the pre-august version for git switch
 - `git switch -c <branch_name>`: create and move to a branch in one step
-  - same as `git checkout <branch_name>`
+  - same as `git checkout -b <branch_name>`
 
 # Merging
 - `git log --oneline --graph --decorate`: shows you your git history tree

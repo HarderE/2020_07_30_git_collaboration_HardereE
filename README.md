@@ -10,16 +10,25 @@ Git Collaboration class notes
 - `git branch <branch_name>`: create a new branch
 - `git switch <branch_name>`: move to a branch
   - `git checkout <branch_name>`: the pre-august version for git switch
+- `git switch -c <branch_name>`: create and move to a branch in one step
+  - same as `git checkout <branch_name>`
 
 # Merging
+- `git log --oneline --graph --decorate`: shows you your git history tree
+  - you can look up how to set this as an git alias
+
+Pull request (PR):
 - `git push origin <branch_name>´: push the branch into remote (GitHub)
 -  In REMOTE: 
    - Issue a pull request
    - Merge the pull request 
    - delete the branch manually under the branches view
+
+To sync your local computer:
 - In your computer:
    - `git checkout master`: go back to thr master
    - `git pull origin master`: Pull down merged code
-   - `git branch -d <branch_name>´: delete the branch
-   - `git fetch --prune`: clean up the branch
+   - `git branch -d <branch_name>`: remove the branch from your loval computer
+   - `git fetch --prune`: clean up git history and remove references from remote that no longer exists
+
 

@@ -1,0 +1,101 @@
+182  cd
+  183  pwd
+  184  ls git
+  185  mkdir git
+  186  cd git
+  187  git clone https://github.com/HarderE/2020_07_30_git_collaboration_HardereE.git
+  188  ls
+  189  cd 2020_07_30_git_collaboration_HardereE
+  190  ls
+  191  ls
+  192  cat LICENSE
+  193  ls -la
+  194  nano README.md
+  195   git remote add origin https://github.com/HarderE/2020_07_30_git_collaboration_HardereE.git
+  196   git remote -v
+  197  git push origin master
+  198  git add README.md
+  199  git commit -m "Adding README.md"
+  200  git push origin master
+  201  nano README.md
+  202  git status
+  203  git diff
+  204  nano README.md
+  205  git diff
+  206  git add README.md
+  207  git commit -m "Adding git clone command"
+  208  git status
+  209  git push origin master
+  210  nano README.md
+  211  git add README.md
+  212  git commit -m "Fixing layout"
+  213  git status
+  214  git push origin master
+  215  ls
+  216  git log --oneline
+  217  git diff f067f79 66e092c
+  218  git branch my_first_branch
+  219  git log --oneline
+  220  git branch -a
+  221  git log --oneline
+  222   git branch -a
+  223  git checkout my_first_branch
+  224  git switch my_first_branch
+  225  git branch -a
+  226  git log --oneline
+  227  git status
+  228  git branch
+  229  git branch -a
+  230  git branch --a
+  231  git branch -a
+  232  nano README.md
+  233  git status
+  234  fir add README.md
+  235  git status
+  236  git add README.md
+  237  git status
+  238  git commit -m "create and move to branches"
+  239  git status
+  240  git log --oneline
+  241  git --version
+  242  get switch master
+  243  git switch master
+  244  git log --oneline
+  245  git log --oneline --all
+  246  git log --oneline --all --graph
+  247  git log --oneline --all --graph --decorate
+  248  cat README.nd
+  249  cat README.md
+  250  git checkpout my_first_branch
+  251  git checkout my_first_branch
+  252  cat README.md
+  253  git push origin my_first_branch
+  254  git log --oneline --all --graph --decorate
+  255  git checkout master
+  256  git log --oneline --all --graph --decorate
+  257  cat README.md
+  258  git pull origin master
+  259  ca README.md
+  260  cat README.md
+  261  git log --oneline --all --graph --decorate
+  262  git branch -a
+  263  git log --oneline --all --graph --decorate
+  264  git fetch --prune
+  265  git log --oneline --all --graph --decorate
+  266  git branch -a
+  267  git branch -d my_first_branch
+  268  git branch -a
+  269  git log --oneline --all --graph --decorate
+  270  nano README.md
+  271  git add README.md
+  272  git commit -m "Adding merge notes"
+  273  git status
+  274  history
+  275   git branch -a
+  276  git log --oneline --all --graph --decorate
+  277   git push origin master
+  278  git checkout -b main
+  279  get status
+  280  git status
+  281  nano README.md
+  282  history

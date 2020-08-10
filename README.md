@@ -1,4 +1,4 @@
-# Git Collaboration class notes
+# 2020/07/30 Git Collaboration class notes
 
 ## Cloning
 - `git clone <url>`: todownload repository from web to local computer
